@@ -1,7 +1,0 @@
-show_downloads: true
-download_android: false
-remote_theme: logzinga/cayman-hatrunner2
-
-github:
-  zip_url: https://github.com/logzinga/HatRunners/releases/download/v0.1/v0.1-Windows.zip
-  tar_url: https://github.com/logzinga/HatRunners/releases/download/v0.1/v0.1-Linux.tar.gz
