@@ -11,10 +11,12 @@ public class NextLevel : MonoBehaviour
         Debug.Log("NextLevel.cs loaded!");
     }
 
+    public string nextStage;
+
     void OnCollisionEnter (Collision collisionInfo) {
         if (collisionInfo.collider.tag == "Player 2") {
-            Debug.Log("Loading Level02");
-            SceneManager.LoadScene("Level02");
+            Debug.Log("Loading " + nextStage);
+            SceneManager.LoadScene(nextStage);
         }
     }
 }
