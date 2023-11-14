@@ -10,9 +10,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("MainMenu.cs Loaded!");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void QuitGame() {
+        Debug.Log("Application Quit");
+        Application.Quit();
     }
 }
