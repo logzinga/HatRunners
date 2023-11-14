@@ -12,7 +12,7 @@ public class NextLevel : MonoBehaviour
     }
 
     void OnCollisionEnter (Collision collisionInfo) {
-        if (collisionInfo.collider.tag == "Player") {
+        if (collisionInfo.collider.tag == "Player 2") {
             Debug.Log("Loading Level02");
             SceneManager.LoadScene("Level02");
         }
